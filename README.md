@@ -1,16 +1,78 @@
-# React + Vite
+# Digi Help 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Digi Help is a responsive digital service website built using **React + Vite**.  
+It represents a modern **online cyber-café / digital help center** that provides assistance with government services, student support, job-related tasks, document handling, and basic digital solutions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔹 About Digi Help
 
-## React Compiler
+Digi Help is designed to help people who face difficulties with online services such as:
+- Government form filling
+- Student admissions & scholarships
+- Job applications & resumes
+- Document and PDF services
+- Basic website and digital business setup
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+The goal of this project is to create a **simple, fast, and user-friendly frontend** that can later be extended with backend functionality if required.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- **React** – Component-based UI development  
+- **Vite** – Fast build tool and development server  
+- **Tailwind CSS** – Responsive and modern styling  
+- **JavaScript (ES6+)**
+
+---
+
+## 📂 Project Structure
+
+digi-help/
+├─ index.html
+├─ package.json
+├─ vite.config.js
+├─ src/
+│ ├─ main.jsx
+│ ├─ App.jsx
+│ ├─ index.css
+│ └─ components/
+│ ├─ Navbar.jsx
+│ ├─ Hero.jsx
+│ ├─ Services.jsx
+│ ├─ Pricing.jsx
+│ └─ Footer.jsx
+└─ README.md
+
+
+
+---
+
+## ✨ Features
+
+- Responsive layout (mobile, tablet, desktop)
+- Clean UI for service-based business
+- Modular React components
+- Easy to deploy on Netlify
+- Beginner-friendly structure
+
+---
+
+Future Enhancements
+
+Contact form integration
+
+WhatsApp click-to-chat button
+
+Backend integration using Node.js
+
+Admin dashboard
+
+Online payment support
+
+👨‍💻 Author
+
+Uzaif
+BTech CSE Student
+Project: Digi Help – Digital Service Center
