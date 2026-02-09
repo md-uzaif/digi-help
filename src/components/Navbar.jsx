@@ -33,7 +33,7 @@ function Navbar() {
       </div>
 
       {/* Online-only notice */}
-      <div className="bg-blue-50 text-blue-700 text-xs text-center py-1">
+      <div className="bg-blue-50 text-blue-700 text-xs text-center py-0.5">
         100% Online Services • Clients from all over India
       </div>
     </nav>

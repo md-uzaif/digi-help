@@ -1,10 +1,10 @@
 function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-amber-50 via-emerald-50 to-sky-50">
+    <section className="relative overflow-hidden bg-gradient-to-br from-amber-50 via-emerald-50 to-sky-50 pt-10 pb-16">
       <div className="pointer-events-none absolute -top-24 -left-20 h-64 w-64 rounded-full bg-amber-200/40 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-24 -right-16 h-72 w-72 rounded-full bg-sky-200/40 blur-3xl" />
 
-      <div className="max-w-7xl mx-auto px-4 py-20 grid lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-8 items-center">
         <div className="relative">
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white/70 px-4 py-2 text-xs font-semibold uppercase tracking-widest text-emerald-700">
             100% Online Support
