@@ -64,45 +64,70 @@ function Hero() {
         </div>
 
         <div className="relative">
-          <div className="hero-float rounded-3xl border border-white/70 bg-white/70 p-6 shadow-xl backdrop-blur">
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="text-xs uppercase tracking-widest text-slate-500">
-                  Live Queue
-                </p>
-                <p className="text-2xl font-['Fraunces'] text-slate-900">
-                  28 tasks in progress
-                </p>
+          <div className="hero-float rounded-[28px] border border-slate-200 bg-slate-900/95 p-4 shadow-2xl">
+            <div className="flex items-center justify-between px-2 pb-3">
+              <div className="flex items-center gap-2 text-xs text-slate-300">
+                <span className="h-2 w-2 rounded-full bg-red-400" />
+                <span className="h-2 w-2 rounded-full bg-amber-400" />
+                <span className="h-2 w-2 rounded-full bg-emerald-400" />
               </div>
-              <span className="rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold text-amber-700">
-                Avg. 2 hrs
-              </span>
+              <span className="text-xs text-slate-400">Digi Help Chat</span>
             </div>
 
-            <div className="mt-6 grid gap-4">
-              {[
-                { label: "Scholarship Forms", status: "Submitted", color: "bg-emerald-500" },
-                { label: "PAN Updates", status: "Reviewing", color: "bg-amber-500" },
-                { label: "Job Applications", status: "In Progress", color: "bg-sky-500" },
-              ].map((item) => (
-                <div
-                  key={item.label}
-                  className="flex items-center justify-between rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm"
-                >
+            <div className="rounded-2xl bg-white/95 p-4 shadow-inner">
+              <div className="flex items-center justify-between border-b border-slate-200 pb-3">
+                <div className="flex items-center gap-3">
+                  <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#25D366]/20 text-[#1EBE57]">
+                    <svg viewBox="0 0 32 32" aria-hidden="true" className="h-5 w-5 fill-current">
+                      <path d="M16.05 5.33c-5.92 0-10.74 4.82-10.74 10.74 0 1.9.5 3.78 1.46 5.43l-1.54 5.6 5.73-1.5c1.6.86 3.39 1.32 5.18 1.32 5.92 0 10.74-4.82 10.74-10.74S21.97 5.33 16.05 5.33zm0 19.64c-1.68 0-3.33-.45-4.76-1.32l-.34-.2-3.39.89.9-3.29-.22-.34a8.93 8.93 0 0 1-1.4-4.72c0-4.93 4.01-8.94 8.94-8.94s8.94 4.01 8.94 8.94-4.01 8.98-8.94 8.98zm4.99-6.72c-.27-.13-1.6-.79-1.84-.88-.25-.09-.43-.13-.61.13-.18.27-.7.88-.86 1.06-.16.18-.31.2-.58.07-.27-.13-1.13-.42-2.16-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.42.12-.56.12-.12.27-.31.4-.46.14-.15.18-.27.27-.45.09-.18.04-.34-.02-.47-.07-.13-.61-1.44-.83-1.97-.21-.52-.43-.45-.59-.45h-.5c-.18 0-.47.07-.71.34-.25.27-.93.93-.93 2.26 0 1.33.96 2.62 1.09 2.8.13.18 1.88 2.89 4.6 4.04.65.27 1.15.44 1.55.56.64.2 1.23.17 1.69.1.51-.08 1.6-.65 1.83-1.27.23-.62.23-1.17.16-1.28-.07-.12-.25-.18-.52-.31z" />
+                    </svg>
+                  </span>
                   <div>
                     <p className="text-sm font-semibold text-slate-800">
-                      {item.label}
+                      WhatsApp Chat
                     </p>
-                    <p className="text-xs text-slate-500">{item.status}</p>
+                    <p className="text-xs text-slate-500">Online now</p>
                   </div>
-                  <span className={`h-3 w-3 rounded-full ${item.color}`} />
                 </div>
-              ))}
+                <span className="rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700">
+                  Reply in minutes
+                </span>
+              </div>
+
+              <div className="mt-4 space-y-3">
+                <div className="flex justify-end">
+                  <div className="max-w-[80%] rounded-2xl rounded-br-sm bg-emerald-600 px-4 py-2 text-sm text-white shadow-sm">
+                    Hi, I need help with a form.
+                  </div>
+                </div>
+                <div className="flex justify-start">
+                  <div className="max-w-[80%] rounded-2xl rounded-bl-sm bg-white px-4 py-2 text-sm text-slate-700 shadow-sm">
+                    Sure! Please share the service you need and your details.
+                  </div>
+                </div>
+                <div className="flex justify-end">
+                  <div className="max-w-[80%] rounded-2xl rounded-br-sm bg-emerald-600 px-4 py-2 text-sm text-white shadow-sm">
+                    Scholarship application for 2026.
+                  </div>
+                </div>
+                <div className="flex justify-start">
+                  <div className="max-w-[80%] rounded-2xl rounded-bl-sm bg-white px-4 py-2 text-sm text-slate-700 shadow-sm">
+                    Got it. We will guide you step‑by‑step and submit today.
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-4 flex items-center justify-between rounded-2xl border border-slate-200 bg-white px-4 py-2 text-xs text-slate-500">
+                <span>Type your message...</span>
+                <span className="rounded-full bg-emerald-600 px-3 py-1 text-white">
+                  Send
+                </span>
+              </div>
             </div>
+
+            <div className="mx-auto mt-3 h-1.5 w-16 rounded-full bg-slate-700" />
           </div>
 
-          <div className="pointer-events-none absolute -bottom-6 -left-6 hidden h-24 w-24 rounded-2xl border border-amber-200 bg-amber-100/70 shadow-lg lg:block hero-float-slow" />
-          <div className="pointer-events-none absolute -top-6 -right-4 hidden h-20 w-20 rounded-full border border-sky-200 bg-sky-100/70 shadow-lg lg:block hero-float-slower" />
         </div>
       </div>
     </section>
