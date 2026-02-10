@@ -6,13 +6,40 @@ function Navbar() {
     <nav className="sticky top-0 z-50 bg-white border-b">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Brand */}
-        <div className="flex flex-col leading-tight">
-          <span className="text-2xl md:text-3xl font-semibold text-slate-900">
-            Digi <span className="text-emerald-700">Help</span>
-          </span>
-          <span className="text-[10px] md:text-[10px] font-medium text-slate-600">
-            Online Digital Services
-          </span>
+        <div className="flex items-center gap-3">
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 48 48"
+            className="h-10 w-10"
+            role="img"
+          >
+            <defs>
+              <linearGradient id="digiHelpLogo" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stopColor="#0f766e" />
+                <stop offset="100%" stopColor="#16a34a" />
+              </linearGradient>
+            </defs>
+            <rect x="3" y="3" width="42" height="42" rx="10" fill="url(#digiHelpLogo)" />
+            <path
+              d="M16 17h10a7 7 0 1 1 0 14H16V17z"
+              fill="#ffffff"
+              opacity="0.9"
+            />
+            <path
+              d="M19 21h6a4 4 0 1 1 0 8h-6v-8z"
+              fill="#0f172a"
+              opacity="0.85"
+            />
+            <circle cx="32" cy="16" r="3" fill="#ffffff" opacity="0.9" />
+          </svg>
+          <div className="flex flex-col leading-tight">
+            <span className="text-2xl md:text-3xl font-semibold text-slate-900">
+              Digi <span className="text-emerald-700">Help</span>
+            </span>
+            <span className="text-[10px] md:text-[10px] font-medium text-slate-600">
+              Online Digital Services
+            </span>
+          </div>
         </div>
 
         {/* Desktop Menu */}
