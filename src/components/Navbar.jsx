@@ -3,7 +3,7 @@ import { useState } from "react";
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className="sticky top-0 z-50 bg-white border-b">
+    <nav id="top" className="sticky top-0 z-50 bg-white border-b">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Brand */}
         <div className="flex items-center gap-3">
@@ -60,7 +60,10 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="transition hover:text-emerald-700" href="#contact">
+            <a
+              className="transition hover:text-emerald-700"
+              href="#contact"
+            >
               Contact
             </a>
           </li>
@@ -126,7 +129,10 @@ function Navbar() {
             <a className="hover:text-blue-600" href="#why-choose">
               Why Choose
             </a>
-            <a className="hover:text-blue-600" href="#contact">
+            <a
+              className="hover:text-blue-600"
+              href="#contact"
+            >
               Contact
             </a>
             <a
