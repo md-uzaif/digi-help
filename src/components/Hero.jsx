@@ -34,7 +34,7 @@ function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="https://wa.me/91XXXXXXXXXX"
+              href="https://wa.me/918084860650"
               className="rounded-md bg-emerald-600 px-6 py-3 text-white font-semibold shadow-lg shadow-emerald-600/20 transition hover:-translate-y-0.5 hover:bg-emerald-700"
             >
               Chat on WhatsApp
@@ -126,7 +126,7 @@ function Hero() {
 
             </div>
 
-            <div className="absolute -right-10 -bottom-24 w-45 rounded-[36px] border border-slate-200 bg-slate-900/95 p-3 shadow-2xl">
+            <div className="absolute -right-5 -bottom-17 w-45 rounded-[36px] border border-slate-200 bg-slate-900/95 p-3 shadow-2xl">
               <div className="mx-auto mb-2 h-1 w-10 rounded-full bg-slate-700" />
               <div className="rounded-[26px] bg-white/95 p-3 shadow-inner min-h-[280px] flex flex-col">
                 <div className="flex items-center gap-2 border-b border-slate-200 pb-2">

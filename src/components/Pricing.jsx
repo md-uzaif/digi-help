@@ -85,7 +85,7 @@ function Pricing() {
               </ul>
 
               <a
-                href="https://wa.me/91XXXXXXXXXX"
+                href="https://wa.me/918084860650"
                 className="block mt-6 text-center bg-green-500 hover:bg-green-600 text-white py-2 rounded-md font-medium"
               >
                 Get Exact Price on WhatsApp

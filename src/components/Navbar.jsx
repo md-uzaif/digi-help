@@ -72,7 +72,7 @@ function Navbar() {
         {/* Right actions */}
         <div className="flex items-center gap-3">
           <a
-            href="https://wa.me/91XXXXXXXXXX"
+            href="https://wa.me/918084860650"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:inline-flex bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md text-sm font-medium items-center gap-2"
@@ -136,7 +136,7 @@ function Navbar() {
               Contact
             </a>
             <a
-              href="https://wa.me/91XXXXXXXXXX"
+              href="https://wa.me/918084860650"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-fit bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md text-sm font-medium"

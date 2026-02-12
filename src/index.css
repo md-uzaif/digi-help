@@ -23,6 +23,33 @@
   }
 }
 
+@keyframes whatsapp-glow {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.75;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes whatsapp-ripple {
+  0% {
+    opacity: 0.45;
+    transform: scale(0.9);
+  }
+  70% {
+    opacity: 0.1;
+    transform: scale(1.45);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.6);
+  }
+}
+
 @layer utilities {
   body {
     font-family: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system,
@@ -43,5 +70,13 @@
 
   .hero-pulse {
     animation: hero-pulse 2.4s ease-in-out infinite;
+  }
+
+  .whatsapp-glow {
+    animation: whatsapp-glow 2.8s ease-in-out infinite;
+  }
+
+  .whatsapp-ripple {
+    animation: whatsapp-ripple 2.8s ease-out infinite;
   }
 }
