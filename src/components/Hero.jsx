@@ -34,7 +34,7 @@ function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="https://wa.me/918084860650"
+              href="https://wa.me/919708709770"
               className="rounded-md bg-emerald-600 px-6 py-3 text-white font-semibold shadow-lg shadow-emerald-600/20 transition hover:-translate-y-0.5 hover:bg-emerald-700"
             >
               Chat on WhatsApp

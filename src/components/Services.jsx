@@ -67,7 +67,7 @@ function Services() {
                 </p>
 
                 <a
-                  href="https://wa.me/918084860650"
+                  href="https://wa.me/919708709770"
                   className="mt-4 inline-flex items-center text-sm font-semibold text-emerald-700 transition group-hover:text-emerald-800"
                 >
                   Contact on WhatsApp

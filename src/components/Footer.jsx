@@ -81,7 +81,7 @@ function Footer() {
             Contact
           </h4>
           <ul className="mt-4 space-y-2 text-sm text-slate-300">
-            <li>WhatsApp: +918084860650</li>
+            <li>WhatsApp: +919708709770</li>
             <li>
               Email:{" "}
               <a className="hover:text-emerald-200" href="mailto:digihelp.official@gmail.com">
@@ -91,7 +91,7 @@ function Footer() {
             <li>Hours: Mon–Sat, 9:00 AM–7:00 PM</li>
           </ul>
           <a
-            href="https://wa.me/918084860650"
+            href="https://wa.me/919708709770"
             className="mt-4 inline-flex items-center justify-center rounded-md bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700"
           >
             Chat on WhatsApp
