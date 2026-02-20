@@ -142,7 +142,7 @@ function Footer() {
       <div className="border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 py-4 text-xs text-slate-400 flex flex-wrap items-center justify-between gap-2">
           <span>© 2026 Digi Help. All rights reserved.</span>
-          <span>Built for fast, reliable online service support.</span>
+          <span>Website designed and developed by Uzaif.</span>
         </div>
       </div>
     </footer>
